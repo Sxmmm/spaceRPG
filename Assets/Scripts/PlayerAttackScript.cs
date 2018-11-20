@@ -11,7 +11,9 @@ public class PlayerAttackScript : MonoBehaviour {
     public LayerMask whatIsEnemies;
     public Animator playerAnim;
     public float attackRange;
-    public int damage;
+
+    [SerializeField]
+    private int damage;
 
 	void Update ()
     {
@@ -19,6 +21,7 @@ public class PlayerAttackScript : MonoBehaviour {
         {
             if (Input.GetKey(KeyCode.Space))
             {
+                Debug.Log("HIT");
                 playerAnim.SetTrigger("attack");
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++)
@@ -34,6 +37,7 @@ public class PlayerAttackScript : MonoBehaviour {
         }
     }
 
+    // Used to draw gizmo
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;

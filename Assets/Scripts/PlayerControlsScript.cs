@@ -27,7 +27,7 @@ public class PlayerControlsScript : MonoBehaviour {
                 direction = -1;
             }
         }
-        else
+        else if (transform.position.x > xpos)
         {
             if (direction == -1)
             {
