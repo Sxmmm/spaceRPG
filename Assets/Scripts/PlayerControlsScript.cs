@@ -23,7 +23,7 @@ public class PlayerControlsScript : MonoBehaviour {
         {
             if (direction == 1)
             {
-                transform.localScale = new Vector2(-8, transform.localScale.y);
+                transform.localScale = new Vector2(-7, transform.localScale.y);
                 direction = -1;
             }
         }
@@ -31,7 +31,7 @@ public class PlayerControlsScript : MonoBehaviour {
         {
             if (direction == -1)
             {
-                transform.localScale = new Vector2(8, transform.localScale.y);
+                transform.localScale = new Vector2(7, transform.localScale.y);
                 direction = 1;
             }
         }
