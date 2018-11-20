@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerControlsScript : MonoBehaviour {
 
-    public float moveSpeed = 3f;
+    public float moveSpeed = 5f;
     int direction = 1;
     float xpos;
 
@@ -23,7 +23,7 @@ public class PlayerControlsScript : MonoBehaviour {
         {
             if (direction == 1)
             {
-                transform.localScale = new Vector2(-7, transform.localScale.y);
+                transform.localScale = new Vector2(-1, transform.localScale.y);
                 direction = -1;
             }
         }
@@ -31,7 +31,7 @@ public class PlayerControlsScript : MonoBehaviour {
         {
             if (direction == -1)
             {
-                transform.localScale = new Vector2(7, transform.localScale.y);
+                transform.localScale = new Vector2(1, transform.localScale.y);
                 direction = 1;
             }
         }
