@@ -8,6 +8,10 @@ public class PlayerControlsScript : MonoBehaviour {
     int direction = 1;
     float xpos;
 
+    private float speedX;
+    private float speedY;
+
+    public Animator anim;
 
     void Start ()
     {
@@ -18,6 +22,14 @@ public class PlayerControlsScript : MonoBehaviour {
     {
         transform.Translate(Vector3.up * Time.deltaTime * Input.GetAxis("Vertical") * moveSpeed);
         transform.Translate(Vector3.right * Time.deltaTime * Input.GetAxis("Horizontal") * moveSpeed);
+        speedX = Mathf.Abs(Input.GetAxis("Horizontal"));
+        speedY = Mathf.Abs(Input.GetAxis("Vertical"));
+
+        speedX = Mathf.Max(speedX, speedY);
+
+        Debug.Log(speedX);
+
+        anim.SetFloat("Speed", speedX);
 
         if (transform.position.x < xpos)
         {

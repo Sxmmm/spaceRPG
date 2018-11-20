@@ -1,7 +1,24 @@
 fileFormatVersion: 2
 guid: 8829b37338b205244bd2cc0409f65c8c
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: dungeon_wall_side
+    21300002: dungeon_floor
+    21300004: dungeon_sprite_map_2
+    21300006: dungeon_wall_top
+    21300008: dungeon_wall_flag_red
+    21300010: dungeon_wall_middle
+    21300012: dungeon_wall_lava
+    21300014: dungeon_wall_water_floor
+    21300016: dungeon_sprite_map_1
+    21300018: dungeon_wall_edge
+    21300020: dungeon_wall_side_top
+    21300022: dungeon_floor_crack_2
+    21300024: dungeon_floor_crack_1
+    21300026: dungeon_floor_crack_3
+    21300028: dungeon_floor_crack_4
+    21300030: dungeon_wall_top_1
+    21300032: dungeon_wall_water_middle
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -113,11 +130,351 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: dungeon_wall_side
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 32
+        width: 5
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9d82786c4b4ec4ba767b726c81eabd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_floor
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999c4e91cf90e5749ba9e01d3eb4bc1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_sprite_map_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 96
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1832ab8f50e4dba4391c41cc56dfbd49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_wall_top
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 160
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e69f799c25a49149bbf957d210e3e77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_wall_flag_red
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3131b5e215665a4c9f7f4ff464519de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_wall_middle
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cb9c16114495847985826e91ea8d2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_wall_lava
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 144
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9eae3c1f497c064c85705ebf7447f67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_wall_water_floor
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e88bf0141c5f974591fe12477bbf5e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_sprite_map_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 176
+        width: 16
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 1.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39003757471cc0744b7d6dac47df8079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_wall_edge
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 48
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b471fc773ad0a9644b70494f7e9d9dc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_wall_side_top
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e93a0b0177f6b4fbd7ec2355464700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_floor_crack_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6b420517b6c924899c845864ad175a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_floor_crack_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfd0c5ef3b8b5d4ba64ab025e867c3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_floor_crack_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628d14de80e55e547bdb16088c00c0fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_floor_crack_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637cc7b75454cd94fa7cb90d39b4899d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_wall_top_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 176
+        width: 16
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc1418566b03574ea17a84ab27425f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_wall_water_middle
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e74af88c0cf74545a6bbfb643046cfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e10043d5b450a724485bf647325d1163
     vertices: []
     indices: 
     edges: []
