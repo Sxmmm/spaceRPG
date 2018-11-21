@@ -10,7 +10,10 @@ public class SpriteOrderScript : MonoBehaviour {
 
         foreach(SpriteRenderer renderer in renderers)
         {
-            renderer.sortingOrder = (int)(renderer.transform.position.y * -100);
+            if (renderer.tag != "Under")
+            {
+                renderer.sortingOrder = (int)(renderer.transform.position.y * -100);
+            }
         }
     }
 

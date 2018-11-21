@@ -21,7 +21,6 @@ public class PlayerAttackScript : MonoBehaviour {
         {
             if (Input.GetKey(KeyCode.Space))
             {
-                Debug.Log("HIT");
                 playerAnim.SetTrigger("attack");
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++)

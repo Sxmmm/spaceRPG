@@ -26,9 +26,6 @@ public class PlayerControlsScript : MonoBehaviour {
         speedY = Mathf.Abs(Input.GetAxis("Vertical"));
 
         speedX = Mathf.Max(speedX, speedY);
-
-        Debug.Log(speedX);
-
         anim.SetFloat("Speed", speedX);
 
         if (transform.position.x < xpos)
