@@ -13,7 +13,7 @@ public class PlayerControlsScript : MonoBehaviour {
 
     public Animator anim;
 
-    void Start ()
+    void Start()
     {
         xpos = transform.position.x;
     }
